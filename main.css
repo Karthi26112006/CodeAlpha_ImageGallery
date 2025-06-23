@@ -16,7 +16,6 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  flex-basis: 25%;
 }
 .container div {
   width: 200px;
@@ -26,6 +25,7 @@ body {
   padding: 50px;
   margin-top: 25px;
   border-radius: 10px;
+  flex-basis: 20%;
 }
 .container div img {
   width: 200px;
